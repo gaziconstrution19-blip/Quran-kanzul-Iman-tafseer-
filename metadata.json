@@ -1,0 +1,6 @@
+{
+  "name": "Quran Kanzul Iman & Tafseer",
+  "description": "An interactive Al-Quran application featuring the Urdu Kanzul Iman translation along with an intelligent AI-powered Tafseer assistant to explore the deeper meaning of each verse.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

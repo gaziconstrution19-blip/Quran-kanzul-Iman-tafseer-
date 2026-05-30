@@ -1,0 +1,42 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background glowing circular halo -->
+    <path
+        android:fillColor="#FFD700"
+        android:fillAlpha="0.15"
+        android:pathData="M54,54m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0" />
+
+    <!-- Centerpiece: Open Sacred Book / Divine Quran representation -->
+    <!-- Left page of the book -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M54,72 C46,64 34,64 24,67 L24,41 C34,38 46,38 54,46 Z" />
+        
+    <!-- Right page of the book -->
+    <path
+        android:fillColor="#FFF8DC"
+        android:pathData="M54,72 C62,64 74,64 84,67 L84,41 C74,38 62,38 54,46 Z" />
+
+    <!-- Separator / Spine rib -->
+    <path
+        android:fillColor="#B8860B"
+        android:pathData="M53,44 L55,44 L55,73 L53,73 Z" />
+
+    <!-- Lines on left page (representing script) -->
+    <path
+        android:strokeColor="#8B6508"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M32,49 L46,49 M30,55 L46,55 M34,61 L42,61" />
+
+    <!-- Lines on right page (representing script) -->
+    <path
+        android:strokeColor="#8B6508"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M76,49 L62,49 M78,55 L62,55 M74,61 L66,61" />
+</vector>
